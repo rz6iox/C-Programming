@@ -46,6 +46,9 @@ int main(void)
 	}
 	end=clock();
 	
+	
+	
+	
 	printf("%d回中%d回成功しました。\n",MAX_STAGE,success);
 	printf("%.1f秒でした。\n",(double)(end-start)/CLOCKS_PER_SEC);
 	
