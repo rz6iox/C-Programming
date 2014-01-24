@@ -27,7 +27,7 @@ int main(void)
 
 	end = time(NULL);
 
-	printf("%.0f秒かかりました。\n",difftime(end,start) );
+	printf("%f秒かかりました。\n",difftime(end,start) );
 
 	return(0);
 }
